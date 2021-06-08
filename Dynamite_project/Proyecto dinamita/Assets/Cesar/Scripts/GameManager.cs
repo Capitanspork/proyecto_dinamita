@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public AudioSource theMusic;
+    public AudioSource theMusic, hitNote, missNote;
 
     public bool startPlaying; 
 
@@ -34,11 +34,13 @@ public class GameManager : MonoBehaviour
     public void NoteHit()
     {
         Debug.Log("Hit On Time");
+        hitNote.Play();
     }
 
     public void NoteMissed()
     {
         Debug.Log("Missed Note");
+        ///missNote.Play();
     }
 
 }
