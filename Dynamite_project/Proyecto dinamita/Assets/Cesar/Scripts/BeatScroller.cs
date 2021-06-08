@@ -19,7 +19,9 @@ public class BeatScroller : MonoBehaviour
     {
         if (!hasStarted)
         {
+            /*
             hasStarted = true;
+            */
         }
         else
         {
