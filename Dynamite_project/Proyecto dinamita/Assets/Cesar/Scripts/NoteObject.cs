@@ -33,19 +33,19 @@ public class NoteObject : MonoBehaviour
                 {
                     Debug.Log("Hit");
                     GameManager.instance.NormalHit();
-                    Instantiate(HitEffect, transform.position, HitEffect.transform.rotation);
+                    //Instantiate(HitEffect, transform.position, HitEffect.transform.rotation);
                 }
                 else if(Mathf.Abs(transform.position.y) > 0.05f)
                 {
                     Debug.Log("Good");
                     GameManager.instance.GoodHit();
-                    Instantiate(goodEffect, transform.position, goodEffect.transform.rotation);
+                    //Instantiate(goodEffect, transform.position, goodEffect.transform.rotation);
                 }
                 else
                 {
                     Debug.Log("Perfect");
                     GameManager.instance.PerfectHit();
-                    Instantiate(perfectEffect, transform.position, perfectEffect.transform.rotation);
+                    //Instantiate(perfectEffect, transform.position, perfectEffect.transform.rotation);
                 }
             }
         }

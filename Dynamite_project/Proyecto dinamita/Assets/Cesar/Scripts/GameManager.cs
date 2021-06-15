@@ -133,6 +133,7 @@ public class GameManager : MonoBehaviour
     {
         currentScore += scorePerNote * currentMultiplier;
         NoteHit();
+        EffectSpawner.instance.spawnPrefab(0);
 
         NormalHits++;
     }
@@ -141,7 +142,7 @@ public class GameManager : MonoBehaviour
     {
         currentScore += scorePerGOODnote * currentMultiplier;
         NoteHit();
-
+        EffectSpawner.instance.spawnPrefab(1);
         GoodHits++;
     }
 
@@ -149,7 +150,7 @@ public class GameManager : MonoBehaviour
     {
         currentScore += scorePerPERFECTnote * currentMultiplier;
         NoteHit();
-
+        EffectSpawner.instance.spawnPrefab(2);
         PerfectHits++;
     }
 
@@ -160,6 +161,7 @@ public class GameManager : MonoBehaviour
         missNote.Play();
         currentMultiplier = 1;
         multiplierTRACKER = 0;
+        EffectSpawner.instance.spawnPrefab(3);
 
         MissedHits++;
         MultiTEXT.text = "Multiplier: x" + currentMultiplier;

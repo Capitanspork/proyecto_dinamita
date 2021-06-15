@@ -12,7 +12,7 @@ public class NotaKiller : MonoBehaviour
         if(other.tag == "Offset")
         {
             GameManager.instance.NoteMissed();
-            Instantiate(MissEffect, transform.position, MissEffect.transform.rotation);
+            //Instantiate(MissEffect, transform.position, MissEffect.transform.rotation);
         }
         
     }
