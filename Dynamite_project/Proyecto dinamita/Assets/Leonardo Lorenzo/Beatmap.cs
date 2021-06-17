@@ -12,6 +12,9 @@ public class Beatmap : MonoBehaviour
     void Start()
     {
         StartCoroutine(ArrowSpawnerUp());
+        StartCoroutine(ArrowSpawnerDown());
+        StartCoroutine(ArrowSpawnerLeft());
+        StartCoroutine(ArrowSpawnerRight());
     }
 
     IEnumerator ArrowSpawnerUp()
@@ -24,6 +27,41 @@ public class Beatmap : MonoBehaviour
 
         }
         while (arrowUpCounter < arrowUpTempo.Length);
+    }
+
+    IEnumerator ArrowSpawnerDown()
+    {
+        do
+        {
+            yield return new WaitForSeconds(arrowDownTempo[arrowDownCounter]);
+            Instantiate(Arrows[1], Arrows[1].transform.position, Arrows[1].transform.rotation);
+            arrowDownCounter++;
+
+        }
+        while (arrowDownCounter < arrowDownTempo.Length);
+    }
+
+    IEnumerator ArrowSpawnerLeft()
+    {
+        do
+        {
+            yield return new WaitForSeconds(arrowLeftTempo[arrowLeftCounter]);
+            Instantiate(Arrows[3], Arrows[3].transform.position, Arrows[3].transform.rotation);
+            arrowLeftCounter++;
+
+        }
+        while (arrowLeftCounter < arrowLeftTempo.Length);
+    }
+    IEnumerator ArrowSpawnerRight()
+    {
+        do
+        {
+            yield return new WaitForSeconds(arrowRightTempo[arrowRightCounter]);
+            Instantiate(Arrows[2], Arrows[2].transform.position, Arrows[2].transform.rotation);
+            arrowRightCounter++;
+
+        }
+        while (arrowRightCounter < arrowRightTempo.Length);
     }
 
 }
