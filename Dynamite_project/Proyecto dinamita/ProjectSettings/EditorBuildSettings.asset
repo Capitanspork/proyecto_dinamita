@@ -13,7 +13,7 @@ EditorBuildSettings:
     guid: a7efac3f0da73e7439004acd29203987
   - enabled: 1
     path: Assets/Daniel/Menu/scenes/Options.unity
-    guid: 975de20ceb22e3f47b79d00346e25a28
+    guid: 6abcc17617d1e614a8ac527063002ab6
   - enabled: 1
     path: Assets/Daniel/Menu/scenes/Credits.unity
     guid: 19f65cebb5eb13f47bb48ba39810195a
