@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3885579872618038148}
   m_LocalRotation: {x: -0, y: -0, z: 0.00000089406944, w: 1}
-  m_LocalPosition: {x: 0.49999642, y: 10, z: 0}
+  m_LocalPosition: {x: 1.5, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canBePressed: 0
-  keyToPress: 275
+  keyToPress: 112
   HitEffect: {fileID: 8100319165468756955, guid: f718ffb69348b4e4685edfa08d98cfdf, type: 3}
   goodEffect: {fileID: 1832076901943000620, guid: 9da26d8b4fef71f44908dd6f08249b95, type: 3}
   perfectEffect: {fileID: 5760044594236131012, guid: 887b92fbbea33514dabb7e3a30af8cee, type: 3}
