@@ -1898,12 +1898,21 @@ MonoBehaviour:
   - {fileID: 3885579872618038148, guid: 722773750cad09b48989c5c1e3fefc3c, type: 3}
   - {fileID: 7071177999420100172, guid: ae96a6bc730cb4047b896b8cfd2796c1, type: 3}
   arrowUpTempo:
-  - 1
-  - 2
-  - 0
-  arrowDownTempo: []
-  arrowLeftTempo: []
-  arrowRightTempo: []
+  - 0.5
+  - 0.1
+  - 0.2
+  arrowDownTempo:
+  - 0.2
+  - 0.2
+  - 0.2
+  - 4
+  - 5
+  arrowLeftTempo:
+  - 0.5
+  - 0.5
+  - 0.5
+  arrowRightTempo:
+  - 1.2
   arrowUpCounter: 0
   arrowDownCounter: 0
   arrowLeftCounter: 0
