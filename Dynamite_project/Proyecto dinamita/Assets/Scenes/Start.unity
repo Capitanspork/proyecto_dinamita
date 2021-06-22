@@ -1899,12 +1899,18 @@ MonoBehaviour:
   - {fileID: 7071177999420100172, guid: ae96a6bc730cb4047b896b8cfd2796c1, type: 3}
   arrowUpTempo:
   - 1
+  - 2.9
+  - 4.6
   arrowDownTempo:
-  - 2
+  - 1.8
+  - 2.8
   arrowLeftTempo:
-  - 3
+  - 2.4
+  - 4.8
   arrowRightTempo:
-  - 4
+  - 3
+  - 2.8
+  - 3.3
   arrowUpCounter: 0
   arrowDownCounter: 0
   arrowLeftCounter: 0
@@ -2186,7 +2192,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b514a1d11cee42c4280e6cd75461dd76, type: 3}
+  m_audioClip: {fileID: 8300000, guid: cf18727f803c82840a29390cea2b4c9a, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.373
   m_Pitch: 1
