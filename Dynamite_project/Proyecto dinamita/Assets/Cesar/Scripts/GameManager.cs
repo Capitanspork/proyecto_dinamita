@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
     public float GoodHits;
     public float PerfectHits;
     public float MissedHits;
+    public float delay;
 
     public GameObject resultScreen;
     public Text PercentHitText, NormalsText, GoodsText, PerfectsText, MissesText, RankText, FinalScoreText;
@@ -44,14 +45,16 @@ public class GameManager : MonoBehaviour
         currentMultiplier = 1;
 
         TotalNotes = FindObjectsOfType<NoteObject>().Length;
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        delay -= Time.deltaTime;
         if (!startPlaying)
         {
-            if (Input.anyKeyDown)
+            if (delay <= 0)
             {
                 startPlaying = true;
                 theBS.hasStarted = true;
