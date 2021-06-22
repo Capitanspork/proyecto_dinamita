@@ -2160,6 +2160,7 @@ MonoBehaviour:
   GoodHits: 0
   PerfectHits: 0
   MissedHits: 0
+  delay: 6
   resultScreen: {fileID: 766832845}
   PercentHitText: {fileID: 1903861623}
   NormalsText: {fileID: 1991264647}
