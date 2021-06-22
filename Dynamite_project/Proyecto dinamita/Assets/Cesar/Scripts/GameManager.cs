@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
     {
         instance = this;
 
-        scoreTEXT.text = "Score; 0";
+        scoreTEXT.text = "Score: 0";
         currentMultiplier = 1;
 
         TotalNotes = FindObjectsOfType<NoteObject>().Length;
