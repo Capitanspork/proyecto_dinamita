@@ -1901,16 +1901,51 @@ MonoBehaviour:
   - 1
   - 2.9
   - 4.6
+  - 4.6
+  - 1.3
+  - 5.35
+  - 6.1
+  - 3.2
+  - 2.8
+  - 2.4
+  - 1.7
   arrowDownTempo:
   - 1.8
   - 2.8
+  - 10
+  - 4
+  - 5.25
+  - 2.6
+  - 2
+  - 2
+  - 3.3
+  - 2.7
+  - 4
   arrowLeftTempo:
   - 2.4
   - 4.8
+  - 2.5
+  - 6
+  - 5.5
+  - 4
+  - 4.5
+  - 1.4
+  - 2
+  - 4.57
+  - 1.45
   arrowRightTempo:
   - 3
   - 2.8
   - 3.3
+  - 2
+  - 6
+  - 5.3
+  - 4.7
+  - 0.8
+  - 4.6
+  - 2.5
+  - 2.1
+  - 4.75
   arrowUpCounter: 0
   arrowDownCounter: 0
   arrowLeftCounter: 0
@@ -2160,7 +2195,7 @@ MonoBehaviour:
   GoodHits: 0
   PerfectHits: 0
   MissedHits: 0
-  delay: 6
+  delay: 6.1
   resultScreen: {fileID: 766832845}
   PercentHitText: {fileID: 1903861623}
   NormalsText: {fileID: 1991264647}
