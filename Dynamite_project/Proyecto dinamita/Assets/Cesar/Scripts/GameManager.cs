@@ -131,7 +131,7 @@ public class GameManager : MonoBehaviour
         MultiTEXT.text = "Multiplier: x" + currentMultiplier;
 
         /*currentScore += scorePerNote * currentMultiplier;*/
-        scoreTEXT.text = "Score; " + currentScore;
+        scoreTEXT.text = "Score: " + currentScore;
     }
     public void NormalHit()
     {
