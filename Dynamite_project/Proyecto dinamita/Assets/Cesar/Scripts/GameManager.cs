@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro; 
 
 public class GameManager : MonoBehaviour
 {
@@ -35,7 +36,7 @@ public class GameManager : MonoBehaviour
     public float delay;
 
     public GameObject resultScreen;
-    public Text PercentHitText, NormalsText, GoodsText, PerfectsText, MissesText, RankText, FinalScoreText;
+    public TextMeshProUGUI PercentHitText, NormalsText, GoodsText, PerfectsText, MissesText, RankText, FinalScoreText;
 
     void Start()
     {

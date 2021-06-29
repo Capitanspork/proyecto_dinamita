@@ -1682,7 +1682,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &766832846
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2197,13 +2197,13 @@ MonoBehaviour:
   MissedHits: 0
   delay: 6.1
   resultScreen: {fileID: 766832845}
-  PercentHitText: {fileID: 1903861623}
-  NormalsText: {fileID: 1991264647}
-  GoodsText: {fileID: 1982387921}
-  PerfectsText: {fileID: 723331160}
-  MissesText: {fileID: 325538177}
-  RankText: {fileID: 1294892955}
-  FinalScoreText: {fileID: 745663033}
+  PercentHitText: {fileID: 0}
+  NormalsText: {fileID: 0}
+  GoodsText: {fileID: 0}
+  PerfectsText: {fileID: 0}
+  MissesText: {fileID: 0}
+  RankText: {fileID: 0}
+  FinalScoreText: {fileID: 0}
 --- !u!4 &1229715564
 Transform:
   m_ObjectHideFlags: 0
@@ -2687,7 +2687,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
