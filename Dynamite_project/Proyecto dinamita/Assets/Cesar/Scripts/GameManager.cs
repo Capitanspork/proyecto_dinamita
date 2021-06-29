@@ -25,8 +25,8 @@ public class GameManager : MonoBehaviour
     public int[] multiplierThresholds;
 
 
-    public Text scoreTEXT;
-    public Text MultiTEXT;
+    public TextMeshProUGUI scoreTEXT;
+    public TextMeshProUGUI MultiTEXT;
 
     public float TotalNotes;
     public float NormalHits;
