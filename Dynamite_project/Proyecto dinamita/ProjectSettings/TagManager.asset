@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Activator
   - Offset
+  - Flecha
   layers:
   - Default
   - TransparentFX
