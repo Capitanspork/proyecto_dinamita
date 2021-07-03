@@ -7,6 +7,10 @@ TagManager:
   - Activator
   - Offset
   - Flecha
+  - arriba
+  - abajo
+  - izquierda
+  - derecha
   layers:
   - Default
   - TransparentFX

@@ -8,6 +8,8 @@ public class ButtonControl : MonoBehaviour
     public Sprite defaultImage;
     public Sprite pressedImage;
 
+    public Animator Izquierda;
+
     public KeyCode KeyToPress;
 
     void Start()
@@ -21,11 +23,17 @@ public class ButtonControl : MonoBehaviour
         if (Input.GetKeyDown(KeyToPress))
         {
             theSR.sprite = pressedImage;
+            if(this.tag == "izquierda")
+            {
+                Izquierda.Play("NoteHIT");
+            }
+            
         }
 
         if (Input.GetKeyUp(KeyToPress))
         {
             theSR.sprite = defaultImage;
+                
         }
     }
 }
