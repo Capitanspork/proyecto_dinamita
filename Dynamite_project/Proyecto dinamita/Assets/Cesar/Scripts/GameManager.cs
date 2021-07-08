@@ -19,6 +19,10 @@ public class GameManager : MonoBehaviour
     public int scorePerGOODnote = 125;
     public int scorePerPERFECTnote = 150;
 
+    public ButtonControl Up;
+    public ButtonControl Down;
+    public ButtonControl Left;
+    public ButtonControl Right;
 
     public int currentMultiplier;
     public int multiplierTRACKER;
@@ -27,6 +31,7 @@ public class GameManager : MonoBehaviour
 
     public TextMeshProUGUI scoreTEXT;
     public TextMeshProUGUI MultiTEXT;
+
 
     public float TotalNotes;
     public float NormalHits;
@@ -113,6 +118,22 @@ public class GameManager : MonoBehaviour
             }
         }
 
+    }
+    public void UpAnimation()
+    {
+        Up.Izquierda.Play("NoteHIT");
+    }
+    public void DownAnimation()
+    {
+        Down.Izquierda.Play("NoteHIT");
+    }
+    public void RightAnimation()
+    {
+        Right.Izquierda.Play("NoteHIT");
+    }
+    public void LeftAnimation()
+    {
+        Left.Izquierda.Play("NoteHIT");
     }
     public void NoteHit()
     {

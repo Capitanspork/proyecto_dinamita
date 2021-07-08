@@ -11,8 +11,6 @@ public class NoteObject : MonoBehaviour
 
     public GameObject HitEffect, goodEffect, perfectEffect;
 
-
-
     void Start()
     {
         
@@ -27,13 +25,32 @@ public class NoteObject : MonoBehaviour
             {
                 gameObject.SetActive(false);
 
-                //GameManager.instance.NoteHit();
+                switch (keyToPress)
+                {
+                    case KeyCode.Q:
+                        GameManager.instance.LeftAnimation();
+                        break;
+                    case KeyCode.P:
+                        GameManager.instance.RightAnimation();
+                        break;
+                    case KeyCode.O:
+                        GameManager.instance.DownAnimation();
+                        break;
+                    case KeyCode.W:
+                        GameManager.instance.UpAnimation();
+                        break;
+                }
 
-                if(Mathf.Abs(transform.position.y) > 0.25)
+
+                GameManager.instance.NoteHit();
+
+
+                if (Mathf.Abs(transform.position.y) > 0.25)
                 {
                     Debug.Log("Hit");
                     GameManager.instance.NormalHit();
                     //Instantiate(HitEffect, transform.position, HitEffect.transform.rotation);
+
                 }
                 else if(Mathf.Abs(transform.position.y) > 0.05f)
                 {
