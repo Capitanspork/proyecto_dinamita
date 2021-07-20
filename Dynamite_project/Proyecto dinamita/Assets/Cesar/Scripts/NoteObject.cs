@@ -29,6 +29,7 @@ public class NoteObject : MonoBehaviour
                 {
                     case KeyCode.Q:
                         GameManager.instance.LeftAnimation();
+                        
                         break;
                     case KeyCode.P:
                         GameManager.instance.RightAnimation();
@@ -75,6 +76,5 @@ public class NoteObject : MonoBehaviour
             canBePressed = true;
         }
     }
-
 
 }

@@ -57,6 +57,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
         delay -= Time.deltaTime;
         if (!startPlaying)
         {
@@ -117,6 +118,7 @@ public class GameManager : MonoBehaviour
                 FinalScoreText.text = currentScore.ToString();
             }
         }
+
 
     }
     public void UpAnimation()
