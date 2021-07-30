@@ -2405,17 +2405,18 @@ MonoBehaviour:
   - 1.2
   - 2
   - 2.5
+  - 2.3
   arrowDownTempo:
   - 1.6
   - 2.6
+  - 3.35
   arrowLeftTempo:
   - 2
-  - 4.5
-  - 1
-  - 1
+  - 5.2
   arrowRightTempo:
   - 2.25
   - 1.3
+  - 8
   arrowUpCounter: 0
   arrowDownCounter: 0
   arrowLeftCounter: 0
