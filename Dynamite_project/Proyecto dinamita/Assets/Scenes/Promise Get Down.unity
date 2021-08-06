@@ -2407,7 +2407,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &766832846
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3736,7 +3736,7 @@ MonoBehaviour:
   MissedHits: 0
   delay: 6.1
   resultScreen: {fileID: 766832845}
-  PercentHitText: {fileID: 0}
+  PercentHitText: {fileID: 948305865}
   NormalsText: {fileID: 1276754012}
   GoodsText: {fileID: 1205006870}
   PerfectsText: {fileID: 1837757811}
