@@ -2122,6 +2122,11 @@ MonoBehaviour:
   - 2.9
   - 4
   - 1.8
+  - 2.3
+  - 4.8
+  - 1
+  - 2.3
+  - 8.7
   arrowDownTempo:
   - 1.6
   - 2
@@ -2129,6 +2134,11 @@ MonoBehaviour:
   - 5.4
   - 6.9
   - 1
+  - 3
+  - 0.8
+  - 4.9
+  - 6.25
+  - 3.7
   arrowLeftTempo:
   - 2.3
   - 1.95
@@ -2136,7 +2146,11 @@ MonoBehaviour:
   - 5.2
   - 2.5
   - 0.5
-  - 3.5
+  - 7.5
+  - 5.7
+  - 3
+  - 1
+  - 0.8
   arrowRightTempo:
   - 1.9
   - 1.3
@@ -2145,6 +2159,10 @@ MonoBehaviour:
   - 7.5
   - 0.8
   - 4.75
+  - 7
+  - 2
+  - 6.9
+  - 3
   arrowUpCounter: 0
   arrowDownCounter: 0
   arrowLeftCounter: 0
