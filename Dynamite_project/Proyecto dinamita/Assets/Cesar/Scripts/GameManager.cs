@@ -42,7 +42,6 @@ public class GameManager : MonoBehaviour
 
     public GameObject resultScreen;
     public TextMeshProUGUI PercentHitText, NormalsText, GoodsText, PerfectsText, MissesText, RankText, FinalScoreText;
-    
 
     void Start()
     {
@@ -120,6 +119,7 @@ public class GameManager : MonoBehaviour
             }
         }
 
+
     }
     public void UpAnimation()
     {
@@ -195,6 +195,4 @@ public class GameManager : MonoBehaviour
 
     }
 
-
-    
 }

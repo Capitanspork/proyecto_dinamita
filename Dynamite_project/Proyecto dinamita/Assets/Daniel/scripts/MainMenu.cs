@@ -33,14 +33,4 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(5);
     }
-
-
-    public void selectGhost()
-    {
-        CharacterManager.Instance.personajeSeleccionado = 1;
-    }
-    public void selectKid()
-    {
-        CharacterManager.Instance.personajeSeleccionado = 2;
-    }
 }
