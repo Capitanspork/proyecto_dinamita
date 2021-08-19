@@ -1828,6 +1828,7 @@ MonoBehaviour:
   - 3.5
   - 1
   - 2
+  - 4
   arrowDownTempo:
   - 1.8
   - 2.8
@@ -1869,6 +1870,8 @@ MonoBehaviour:
   - 1.6
   - 2
   - 1.3
+  - 1.8
+  - 0.7
   arrowRightTempo:
   - 3
   - 2.8
@@ -3332,6 +3335,10 @@ PrefabInstance:
       propertyPath: Right
       value: 
       objectReference: {fileID: 335185282}
+    - target: {fileID: 4496711539727309540, guid: b05246023a027374d99d580b6551a652, type: 3}
+      propertyPath: delay
+      value: 6.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4496711539727309540, guid: b05246023a027374d99d580b6551a652, type: 3}
       propertyPath: theBS
       value: 
